@@ -10,3 +10,12 @@ Bienvenidos al repositorio donde documento mis aventuras en Vulnyx, una platafor
 🐚 Fragmentos de código o scripts personalizados.
 
 ✅ Cada writeup indica si la máquina es fácil, media o difícil.
+
+## 📜 Writeups Disponibles
+
+| 🖥️ Máquina     | 🎯 Dificultad | ⚙️ Técnicas principales         | 📎 Enlace al writeup          |
+|----------------|---------------|--------------------------------|-------------------------------|
+| Neko           | 🟢 Fácil      | Enumeración básica, RCE        | [Ver writeup](./Neko/README.md) |
+| Kitsune        | 🟡 Media      | File Inclusion, Priv Esc Linux | [Ver writeup](./Kitsune/README.md) |
+| Tora           | 🔴 Difícil    | Buffer Overflow, SUID abuse    | [Ver writeup](./Tora/README.md) |
+
