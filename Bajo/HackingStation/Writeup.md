@@ -3,7 +3,7 @@
 Skills: • Ejecución de comandos (Inyección de comandos)
 • Abuso del Binario Nmap - (Sudo/Escalada de Privilegios)
 
-![user.png](Vulnyx/Bajo/HackingStation/Images/Info_Machine.png)
+![user.png](Bajo/HackingStation/Images/Info_Machine.png)
 
 # 🧠 **Skills Adquiridas y Aprendizajes Clave**
 
