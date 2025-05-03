@@ -11,12 +11,26 @@ Bienvenidos al repositorio donde documento mis aventuras en Vulnyx, una platafor
 
   ✅ Cada writeup indica si la máquina es fácil, media o difícil.
 
-## 📜 Writeups Disponibles
+## 📊 Writeups por Dificultad
 
-| 🖥️ Máquina     | 🎯 Dificultad | ⚙️ Técnicas principales         | 📎 Enlace al writeup          |
-|----------------|---------------|--------------------------------|-------------------------------|
-| Neko           | 🟢 Fácil      | Enumeración básica, RCE        | [Ver writeup](./Neko/README.md) |
-| Kitsune        | 🟡 Media      | File Inclusion, Priv Esc Linux | [Ver writeup](./Kitsune/README.md) |
-| Tora           | 🔴 Difícil    | Buffer Overflow, SUID abuse    | [Ver writeup](./Tora/README.md) |
+### 🟩 Bajo
+| 🖥️ Máquina | ⚙️ Técnicas principales         | 📎 Enlace al writeup            |
+|-----------|--------------------------------|---------------------------------|
+| 🧸 Panda   | Nmap básico, credenciales débiles | [Ver writeup](./Panda/README.md) |
+
+### 🟢 Fácil
+| 🖥️ Máquina | ⚙️ Técnicas principales         | 📎 Enlace al writeup            |
+|-----------|--------------------------------|---------------------------------|
+| 🐱 Neko    | Enumeración básica, RCE        | [Ver writeup](./Neko/README.md) |
+
+### 🟡 Medio
+| 🖥️ Máquina | ⚙️ Técnicas principales             | 📎 Enlace al writeup              |
+|-----------|------------------------------------|-----------------------------------|
+| 🦊 Kitsune | File Inclusion, Priv Esc Linux     | [Ver writeup](./Kitsune/README.md) |
+
+### 🔴 Hard
+| 🖥️ Máquina | ⚙️ Técnicas principales           | 📎 Enlace al writeup            |
+|-----------|----------------------------------|---------------------------------|
+| 🐯 Tora    | Buffer Overflow, SUID abuse     | [Ver writeup](./Tora/README.md) |
 
 
