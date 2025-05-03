@@ -14,7 +14,7 @@ Bienvenidos al repositorio donde documento mis aventuras en Vulnyx, una platafor
 ## 📊 Writeups por Dificultad
 
 ### 🟩 Bajo
-|    🖥️ Máquina       |      ⚙️ Técnicas principales      | 📎 Enlace al writeup            |
+|    🖥️ Máquina       |      ⚙️ Técnicas principales      |   📎 Enlace al writeup          |
 |---------------------|-----------------------------------|---------------------------------|
 | 💻 HackingStation   | Nmap básico, credenciales débiles | [Ver writeup](./README.md)      |
 
