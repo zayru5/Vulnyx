@@ -3,7 +3,7 @@
 Skills: • Ejecución de comandos (Inyección de comandos)
 • Abuso del Binario Nmap - (Sudo/Escalada de Privilegios)
 
-![user.png](Hacking-Station%20by%20Zayru5%201e0cb9b1e60b8072af4cf048231c9145/addf66a4-b524-4af4-9243-659c3482b38d.png)
+![user.png](Bajo/HackingStation/Images/Info_Machine.png)
 
 # 🧠 **Skills Adquiridas y Aprendizajes Clave**
 
