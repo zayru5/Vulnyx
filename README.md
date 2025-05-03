@@ -16,7 +16,7 @@ Bienvenidos al repositorio donde documento mis aventuras en Vulnyx, una platafor
 ### 🟩 Bajo
 |    🖥️ Máquina       |      ⚙️ Técnicas principales      |   📎 Enlace al writeup          |
 |---------------------|-----------------------------------|---------------------------------|
-| 💻 HackingStation   | Nmap básico, credenciales débiles | [Ver writeup](Bajo/HackingStation)      |
+| 💻 HackingStation   | Nmap básico, credenciales débiles | [Ver writeup](Bajo/HackingStation/Writeup.md)|
 
 ### 🟢 Fácil
 | 🖥️ Máquina | ⚙️ Técnicas principales         | 📎 Enlace al writeup            |
