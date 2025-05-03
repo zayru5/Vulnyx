@@ -14,14 +14,14 @@ Bienvenidos al repositorio donde documento mis aventuras en Vulnyx, una platafor
 ## 📊 Writeups por Dificultad
 
 ### 🟩 Bajo
-| 🖥️ Máquina | ⚙️ Técnicas principales         | 📎 Enlace al writeup            |
-|-----------|--------------------------------|---------------------------------|
-| 🧸 Panda   | Nmap básico, credenciales débiles | [Ver writeup](./Panda/README.md) |
+|    🖥️ Máquina       |      ⚙️ Técnicas principales      | 📎 Enlace al writeup            |
+|---------------------|-----------------------------------|---------------------------------|
+| 💻 HackingStation   | Nmap básico, credenciales débiles | [Ver writeup](./Panda/README.md) |
 
 ### 🟢 Fácil
 | 🖥️ Máquina | ⚙️ Técnicas principales         | 📎 Enlace al writeup            |
 |-----------|--------------------------------|---------------------------------|
-| 🐱 Neko    | Enumeración básica, RCE        | [Ver writeup](./Neko/README.md) |
+|           |                                |                                 |
 
 ### 🟡 Medio
 | 🖥️ Máquina | ⚙️ Técnicas principales             | 📎 Enlace al writeup              |
