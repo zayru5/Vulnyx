@@ -9,7 +9,7 @@ Bienvenidos al repositorio donde documento mis aventuras en Vulnyx, una platafor
 
   🐚 Fragmentos de código o scripts personalizados.
 
-  ✅ Cada writeup indica si la máquina es fácil, media o difícil.
+  ✅ Cada writeup indica si los skills necesarios y aprendidos para la resolucion de la maquina.
 
 ## 📊 Writeups por Dificultad
 
