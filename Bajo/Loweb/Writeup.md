@@ -790,8 +790,6 @@ $.each(users, function(i, item) {
 
 # 🔎 RECONOCIMIENTO 🔍
 
-## ARP Scan
-
 ## Reconocimiento Inicial 🔎
 
 ### Escaneo de puertos con 🔎Nmap🔍
