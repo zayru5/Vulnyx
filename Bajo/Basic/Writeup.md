@@ -208,7 +208,7 @@ Es **una mina de oro potencial**.
 - A menudo lista rutas sensibles o privadas que los admins **no quieren que los bots vean**.
 - Pero... ¡si está listado ahí, **sabemos que existe**!
 
-![image.png](./Images/image%2.png)
+![image.png](./Images/image%202.png)
 
 ### 🔍 ¿Qué significa?
 
@@ -226,13 +226,13 @@ Esto simplemente le dice a **todos los motores de búsqueda (user-agents)** que 
 - **¿Permite ver impresoras, usuarios o subir archivos?**
 - **¿Se puede modificar alguna configuración?**
 
-![image.png](./Images/image%3.png)
+![image.png](./Images/image%203.png)
 
-![image.png](./Images/image%4.png)
+![image.png](./Images/image%204.png)
 
-![image.png](./Images/image%5.png)
+![image.png](./Images/image%205.png)
 
-![image.png](./Images/image%6.png)
+![image.png](./Images/image%206.png)
 
 **⚠️Se encuentra un potencial usuario ⚠️**
 
@@ -246,9 +246,9 @@ gobuster dir -u http://192.168.11.13:631 -w /usr/share/wordlists/dirb/common.txt
 - No se encontraron rutas interesantes, solo robots.txt
 - Las rutas encontradas allí son redirecciones al panel de adiministrador de la página o a la página de inicio.
 
-![image.png](Basic%20by%20Zayru5%201e1cb9b1e60b80649a7bdd50d2643e92/image%207.png)
+![image.png](./Images/image%207.png)
 
-![image.png](Basic%20by%20Zayru5%201e1cb9b1e60b80649a7bdd50d2643e92/image%208.png)
+![image.png](./Images/image%208.png)
 
 # 🎯 INTRUSIÓN 🎯
 
@@ -274,7 +274,7 @@ hydra -l dimitri -P /usr/share/wordlists/rockyou.txt ssh://192.168.11.13
 | `-P /usr/share/wordlists/rockyou.txt` | Usa la **lista de contraseñas** `rockyou.txt`, ubicada en esa ruta. Hydra probará cada una con el usuario. |
 | `ssh://192.168.11.13` | Especifica el **protocolo** (`ssh`) y la **dirección IP** del objetivo. Hydra intentará iniciar sesión vía SSH en `192.168.11.13`. |
 
-![image.png](Basic%20by%20Zayru5%201e1cb9b1e60b80649a7bdd50d2643e92/image%209.png)
+![image.png](./Images/image%209.png)
 
 **Hydra (también conocida como THC Hydra) es una herramienta de fuerza bruta rápida y flexible utilizada para probar combinaciones de usuario/contraseña contra servicios remotos.**
 
@@ -308,7 +308,7 @@ ssh dimitri@192.168.11.13
 - Buscar archivos interesantes (`.bash_history`, `.ssh`, `sudo -l`, ).
 - Ver si puedes escalar privilegios.
 
-![image.png](Basic%20by%20Zayru5%201e1cb9b1e60b80649a7bdd50d2643e92/image%2010.png)
+![image.png](./Images/image%2010.png)
 
 ## Escalada de privilegios
 
@@ -405,7 +405,7 @@ Si `/usr/bin/env` tiene SUID y es propiedad de `root`, al lanzar `/bin/sh`, este
 
 ## 🔥ROOT🔥
 
-![image.png](Basic%20by%20Zayru5%201e1cb9b1e60b80649a7bdd50d2643e92/image%2011.png)
+![image.png](./Images/image%2011.png)
 
 # ✅CONCLUSIÓN✅
 
