@@ -111,7 +111,7 @@ Service detection performed. Please report any incorrect results at https://nmap
 
 ## 🔎 Enumeracion del sitio web
 
-![image.png](./Images/image%1.png)
+![image 1.png](./Images/image%1.png)
 
 ### 🔍 Escaneo con Gobuster
 
