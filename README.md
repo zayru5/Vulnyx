@@ -17,7 +17,7 @@ Bienvenidos al repositorio donde documento mis aventuras en Vulnyx, una platafor
 |    🖥️ Máquina       |      ⚙️ Técnicas principales      |   📎 Enlace al writeup                            |
 |---------------------|-----------------------------------|---------------------------------                   |
 | 💻 HackingStation   | Nmap básico, credenciales débiles | [Writeup](Bajo/HackingStation/Writeup.md)|
-| Basic               | Nmap básico, SSH Ataque de Fuerza Bruta con Hydra SUID escalada de privilegios  | [Writeup](Bajo/Basic/Writeup.md)
+| Basic               | Nmap básico, SSH Ataque de Fuerza |Bruta con Hydra SUID escalada de privilegios  | [Writeup](Bajo/Basic/Writeup.md)
 
 ### 🟢 Fácil
 | 🖥️ Máquina | ⚙️ Técnicas principales         | 📎 Enlace al writeup            |
