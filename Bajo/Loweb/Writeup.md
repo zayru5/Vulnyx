@@ -5,7 +5,7 @@ Abusar de inyección SQL y LFI para obtener acceso.
 Obtener shell mediante RCE desde el navegador.
 Aprovechar sudo chown para lograr privilegios root.
 
-![Screenshot_3.png](Loweb%20by%20Skvll%20Zayru5%201e4cb9b1e60b805cb36fd80bc2430599/Screenshot_3.png)
+![Screenshot_3.png](./Images/Screenshot_3.png)
 
 # ANALISIS CODIGO ESTATICO 🔎📖🧑‍💻🔍
 
