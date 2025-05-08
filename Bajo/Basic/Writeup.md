@@ -53,7 +53,7 @@ SUID escalada de privilegios
     ```
     
 
-![image.png](Basic%20by%20Zayru5%201e1cb9b1e60b80649a7bdd50d2643e92/image.png)
+![image.png](./Images/image.png)
 
 - Identificamos nuestra maquina objetivo con la IP 192.168.11.13
 
@@ -111,7 +111,7 @@ Service detection performed. Please report any incorrect results at https://nmap
 
 ## 🔎 Enumeracion del sitio web
 
-![image.png](Basic%20by%20Zayru5%201e1cb9b1e60b80649a7bdd50d2643e92/image%201.png)
+![image.png](./Images/image1.png)
 
 ### 🔍 Escaneo con Gobuster
 
