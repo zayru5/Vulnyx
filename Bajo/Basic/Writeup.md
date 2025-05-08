@@ -5,7 +5,7 @@ Descubrimiento de directorios
 SSH Ataque de Fuerza Bruta con Hydra
 SUID escalada de privilegios
 
-![Basic.png](Basic%20by%20Zayru5%201e1cb9b1e60b80649a7bdd50d2643e92/Basic.png)
+![Basic.png](Bajo/Basic/Images/Basic.png)
 
 # 🧠 **Skills necesarias** 🧠
 
