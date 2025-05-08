@@ -111,7 +111,7 @@ Service detection performed. Please report any incorrect results at https://nmap
 
 ## 🔎 Enumeracion del sitio web
 
-![image.png](./Images/image1.png)
+![image.png](./Images/image 1.png)
 
 ### 🔍 Escaneo con Gobuster
 
@@ -208,7 +208,7 @@ Es **una mina de oro potencial**.
 - A menudo lista rutas sensibles o privadas que los admins **no quieren que los bots vean**.
 - Pero... ¡si está listado ahí, **sabemos que existe**!
 
-![image.png](./Images/image2.png)
+![image.png](./Images/image 2.png)
 
 ### 🔍 ¿Qué significa?
 
@@ -226,13 +226,13 @@ Esto simplemente le dice a **todos los motores de búsqueda (user-agents)** que 
 - **¿Permite ver impresoras, usuarios o subir archivos?**
 - **¿Se puede modificar alguna configuración?**
 
-![image.png](./Images/image3.png)
+![image.png](./Images/image 3.png)
 
-![image.png](./Images/image4.png)
+![image.png](./Images/image 4.png)
 
-![image.png](./Images/image5.png)
+![image.png](./Images/image 5.png)
 
-![image.png](./Images/image6.png)
+![image.png](./Images/image 6.png)
 
 **⚠️Se encuentra un potencial usuario ⚠️**
 
