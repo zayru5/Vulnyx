@@ -208,7 +208,7 @@ Es **una mina de oro potencial**.
 - A menudo lista rutas sensibles o privadas que los admins **no quieren que los bots vean**.
 - Pero... ¡si está listado ahí, **sabemos que existe**!
 
-![image.png](Basic%20by%20Zayru5%201e1cb9b1e60b80649a7bdd50d2643e92/image%202.png)
+![image.png](./Images/image2.png)
 
 ### 🔍 ¿Qué significa?
 
@@ -226,13 +226,13 @@ Esto simplemente le dice a **todos los motores de búsqueda (user-agents)** que 
 - **¿Permite ver impresoras, usuarios o subir archivos?**
 - **¿Se puede modificar alguna configuración?**
 
-![image.png](Basic%20by%20Zayru5%201e1cb9b1e60b80649a7bdd50d2643e92/image%203.png)
+![image.png](./Images/image3.png)
 
-![image.png](Basic%20by%20Zayru5%201e1cb9b1e60b80649a7bdd50d2643e92/image%204.png)
+![image.png](./Images/image4.png)
 
-![image.png](Basic%20by%20Zayru5%201e1cb9b1e60b80649a7bdd50d2643e92/image%205.png)
+![image.png](./Images/image5.png)
 
-![image.png](Basic%20by%20Zayru5%201e1cb9b1e60b80649a7bdd50d2643e92/image%206.png)
+![image.png](./Images/image6.png)
 
 **⚠️Se encuentra un potencial usuario ⚠️**
 
