@@ -17,8 +17,8 @@ Bienvenidos al repositorio donde documento mis aventuras en Vulnyx, una platafor
 |    🖥️ Máquina       |      ⚙️ Técnicas principales                  |   📎 Enlace al writeup          |
 |---------------------|-----------------------------------------------|---------------------------------|
 | 💻 HackingStation   | Nmap básico, credenciales débiles             | [Writeup](Bajo/HackingStation/Writeup.md)|
-| Basic               | Nmap básico, Hydra, SUID escalar privilegios  | [Writeup](Bajo/Basic/Writeup.md)|
-| Loweb               | Análisis de código, SQLi, LFI, RCE            | [Writeup](Bajo/Loweb/Writeup.md)|
+| 🧱 Basic            | Nmap básico, Hydra, SUID escalar privilegios  | [Writeup](Bajo/Basic/Writeup.md)|
+| 🐌 Loweb            | Análisis de código, SQLi, LFI, RCE            | [Writeup](Bajo/Loweb/Writeup.md)|
 
 ### 🟢 Fácil
 | 🖥️ Máquina | ⚙️ Técnicas principales         | 📎 Enlace al writeup            |
